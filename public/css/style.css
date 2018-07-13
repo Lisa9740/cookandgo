@@ -5,8 +5,11 @@ a {
 .bg-orange {
   background-color: #d05c62;
 }
+.bg-orange2 {
+  background-color: #F3671F;
+}
 
-header .navbar {
+header .bg-img {
   background-image: url('/img/food.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,7 +33,10 @@ img {
   border-radius: 4px;
 }
 
+a:hover{
 
+color:white;
+}
 
 
 /* Hauteur des images du carousel */
@@ -65,7 +71,7 @@ img {
 /*Espacement entre les lettres*/
 
 .premier {
-  letter-spacing: 1px;
+ border-spacing: 1px;
 }
 
 /*FOOTER*/
