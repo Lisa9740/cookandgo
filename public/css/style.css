@@ -27,6 +27,7 @@ h1 {
 
 .navbar .container .navbar-brand {
   justify-content: center;
+  font-size: 12px;
 }
 
 img {
@@ -86,7 +87,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
+h1,h3 {
   font-family: 'Roboto', sans-serif;
 }
 
