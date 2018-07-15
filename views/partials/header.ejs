@@ -52,11 +52,12 @@
                     </ul>
             
                 </div>
+                <% if (user.role !== 1 && 2 ){ %>
                 <div class="container d-flex justify-content-end">      
                             
                         <ul class="navbar-nav  ">
             
-                                <% if (user.role !== 1 || 2 ){ %>
+                          
                      
                         <li class=" nav-item mr-2 ">
                             <a  class="nav-link font-weight-bold" href="/cuisiniers/auth"> Gérer ses ateliers </a>
