@@ -41,28 +41,40 @@
         </button>
         <div class="collapse navbar-collapse">
 
-         
-                    <ul class="navbar-nav d-flex ">
+         <div class="container">
+                    <ul class="navbar-nav ">
                         <li class="nav-item ">
                             <a class="nav-link" href="/ateliers"> Nos Ateliers </a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="/cuisiniers/auth"> Créer son atelier </a>
                         </li>
-                
+                    </ul>
             
-
+                </div>
+                <div class="container d-flex justify-content-end">      
+                            
+                        <ul class="navbar-nav  ">
+            
+                        <li class=" nav-item mr-2 ">
+                            <a  class="nav-link font-weight-bold" href="/cuisiniers/auth"> Gérer ses ateliers </a>
+                        </li>
+                   
+                  
+              
 
 
                     <% if (user.role !== 1 || 2 ){ %>
+                     
+                      
+                         
                     
-                           
-                                <li class=" nav-item  mr-0">
-                                    <a class="nav-link" href="/particuliers/auth"> Se Connecter pour réserver </a>
+                                <li class=" nav-item ">
+                                    <a  class="nav-link btn btn-light font-weight-bold" href="/particuliers/auth"> Se Connecter pour réserver </a>
                                 </li>
                             </ul>
                             <% } %>
-                   
+                        </div>
             </div>
     </nav>
 </div>
